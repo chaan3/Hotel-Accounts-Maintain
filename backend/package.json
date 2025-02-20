@@ -10,12 +10,11 @@
     "nodemon": "^3.1.9",
     "start":"server.js",
    
-    "type":"module",
-    "build":"npm install"
+    "type":"module"
   },
   "scripts": {
   "start": "node server.js",
-  "build":"npm install"
+  "build": "npm install && npm run build"
 }
 
 }
