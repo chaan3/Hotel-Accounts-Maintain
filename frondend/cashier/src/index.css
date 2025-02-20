@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+ */
+ /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NL+Guides&display=swap'); */
+ /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NL+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom underline animation */
+a.relative::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;  /* Adjust the distance of the line */
+    left: 0;
+    width: 0;
+    height: 2px;  /* Line thickness */
+    background-color: #000;  /* Line color */
+    transition: width 0.3s ease-in-out;  /* Animation for the underline width */
+  }
+  
+  a.relative.group:hover::after {
+    width: 100%;  /* Line expands to full width on hover */
+  }
+  
