@@ -1,6 +1,7 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
+import dotenv from 'dotenv';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken'
 // const jwt=require("jsonwebtoken")
@@ -8,7 +9,7 @@ import jwt from 'jsonwebtoken'
 
 // import router from './router';
 
-
+dotenv.config(); // Load environment variables
 const app = express();
 
 // Middleware setup
@@ -22,13 +23,13 @@ app.use(cors()); // Fix: `cors` should be called as a function.
 const router=express.Router();
 app.use('/api',router)
 
-const SECRET_KEY="anjac@2023";
+const SECRET_KEY = process.env.SECRET_KEY || "anjac@2023";
 
 
 router.get('/test',(req,res)=>res.json({message:"Api Tested"}));
 
 // MongoDB connection
-mongoose.connect('mongodb://127.0.0.1:27017/SRV-Hotel', {
+mongoose.connect('mongodb+srv://root:root@hotelcluster.4dn5z.mongodb.net/SRV-Hotel', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
