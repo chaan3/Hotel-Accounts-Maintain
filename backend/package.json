@@ -12,5 +12,9 @@
    
     "type":"module",
     "build":"npm install"
-  }
+  },
+  "scripts": {
+  "start": "node server.js"
+}
+
 }
