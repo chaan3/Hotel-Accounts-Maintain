@@ -14,7 +14,8 @@
     "build":"npm install"
   },
   "scripts": {
-  "start": "node server.js"
+  "start": "node server.js",
+  "buuid":"npm install"
 }
 
 }
