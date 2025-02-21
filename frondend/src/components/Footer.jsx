@@ -1,5 +1,5 @@
 import React from 'react'
-import Contactw from './ContactWhatsapp';
+import Contactw from './Contactwhatsapp';
 import Contactm from './ContactMail';
 import Contactphone from './Contactphone';
 
