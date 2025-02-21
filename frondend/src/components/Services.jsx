@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slideshow from './slideshow/SlideshowBriyani';
 import ScrollSection from './Scrollanimation';
-import AdminFoodManagement from './adminaddfood';
+//import AdminFoodManagement from './Adminaddfood';
 // import FoodOrder from './Customer/Order';
 
 const Services = () => {
