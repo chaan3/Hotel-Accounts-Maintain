@@ -1,6 +1,6 @@
 import React from 'react'
 import Contactw from './Contactwhatsapp';
-import Contactm from './ContactMail';
+import Contactm from './Contactmail';
 import Contactphone from './Contactphone';
 
 const Footerpage = () => {
