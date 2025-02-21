@@ -1,9 +1,9 @@
 import React from 'react'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import AdminFoodManagement from './adminaddfood';
 import Home from './Home';
 import Order from './Order';
 import Dashboard from './admin/dashboard';
+import AdminFoodManagement from './Adminaddfood';
 const Routingpage = () => {
   return (
     <div>
