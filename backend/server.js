@@ -17,6 +17,8 @@ app.use(express.json());
 app.use(cors()); // Fix: `cors` should be called as a function.
 
 
+//buffer
+mongoose.set('bufferCommands', false);
 
 
 //router 
@@ -31,7 +33,8 @@ router.get('/test',(req,res)=>res.json({message:"Api Tested"}));
 // MongoDB connection
 mongoose.connect('mongodb+srv://root:root@hotelcluster.4dn5z.mongodb.net/SRV-Hotel', {
     useNewUrlParser: true,
-    useUnifiedTopology: true,
+  useUnifiedTopology: true,
+  serverSelectionTimeoutMS: 30000 
 })
     .then(() => console.log('Connected to MongoDB!'))
     .catch(err => console.error('Failed to connect to MongoDB:', err));
