@@ -13,7 +13,7 @@ const Home = () => {
       <section className="relative bg-white text-white">
         <div
           className="absolute inset-0 bg-cover bg-center "
-          style={{ backgroundImage: 'url(src/assets/bghome.png)' }}
+          style={{ backgroundImage: 'url(assets/bghome.png)' }}
         ></div>
         <div className="relative h-72 sm:px-12 lg:px-24 text-center bg-green-600/0 backdrop-blur-sm">
         <NavBar/>
