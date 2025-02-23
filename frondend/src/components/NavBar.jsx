@@ -102,7 +102,7 @@ const NavBar = () => {
    const [message, setMessage] = useState('');
    const [register, setRegister] = useState([]);
    const [loading, setLoading] = useState(false);
-   const apiurl = "http://127.0.0.1:3000";
+   const apiurl = "https://hotel-accounts-maintain-bs.onrender.com";
 
 
   //  //login
