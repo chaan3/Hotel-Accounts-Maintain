@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="container mx-auto p-6 bg-gray-50 rounded-lg shadow-lg" >
       <div className="flex items-center justify-center">
-     <img src="src/assets/srvlogo.png" alt="" className="w-20 h-25"/>
+     <img src="assets/srvlogo.png" alt="" className="w-20 h-25"/>
      <h1 className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-yellow-500 to-yellow-600 px-3 fs-1 fw-bold">Sri Rajavirundhu</h1>
      </div>
       

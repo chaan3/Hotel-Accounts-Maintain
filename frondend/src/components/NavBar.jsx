@@ -281,7 +281,7 @@ const NavBar = () => {
             <div className="flex items-center gap-2">
               <img
                 className="h-10"
-                src="src/assets/srv.png"
+                src="assets/srv.png"
                 alt="Logo"
               />
               <h1 className="text-4xl font-bold">SRV</h1>
@@ -320,7 +320,7 @@ const NavBar = () => {
           <button onClick={closeLoginPopup} className="absolute top-3 right-3 text-gray-600 hover:text-red-500">✖</button>
           <div className="flex gap-5 justify-center">
           <div className="w-80 h-80   mt-4 justify-center">
-  <img src="src/assets/Signin.jpg" alt="Signup" className="w-full h-full object-cover rounded-lg" />
+  <img src="assets/Signin.jpg" alt="Signup" className="w-full h-full object-cover rounded-lg" />
   </div>
   
           {/* <h2 className="text-2xl font-bold mb-4 text-center text-black fw-bold">Signup</h2> */}
@@ -372,7 +372,7 @@ const NavBar = () => {
               <button onClick={closeSignupPopup} className="absolute top-3 right-3 text-gray-600 hover:text-red-500">✖</button>
               <div className="flex grid-cols-1 md-grid-cols-2 gap-5 justify-center">
               <div className="w-80 h-90  mt-4 justify-center">
-    <img src="src/assets/Signup.jpg" alt="Signup" className="w-full h-full object-cover rounded-lg" />
+    <img src="assets/Signup.jpg" alt="Signup" className="w-full h-full object-cover rounded-lg" />
   </div>
   
                

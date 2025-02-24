@@ -23,7 +23,7 @@ const Services = () => {
           <div className="m-10 grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-3 gap-10 max-w-7xl flex">
             {/* Food Item 1 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-              <img className="w-full h-48 object-cover" src="src/assets/briyani.png" alt="Biryani Special" />
+              <img className="w-full h-48 object-cover" src="assets/briyani.png" alt="Biryani Special" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-800">Biryani Specials</h3>
                 <p className="mt-4 text-gray-600">
@@ -33,7 +33,7 @@ const Services = () => {
             </div>
             {/* Food Item 2 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-              <img className="w-full h-48 object-cover" src="src/assets/chi-rice.jpg" alt="Chinese Cuisine" />
+              <img className="w-full h-48 object-cover" src="assets/chi-rice.jpg" alt="Chinese Cuisine" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-800">Chinese Delicacies</h3>
                 <p className="mt-4 text-gray-600">
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             {/* Food Item 3 */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden hover:scale-105 transition-transform duration-300">
-              <img className="w-full h-48 object-cover" src="src/assets/icecream.jpg" alt="Desserts" />
+              <img className="w-full h-48 object-cover" src="assets/icecream.jpg" alt="Desserts" />
               <div className="p-6">
                 <h3 className="text-2xl font-semibold text-gray-800">Delicious Desserts</h3>
                 <p className="mt-4 text-gray-600">

@@ -16,7 +16,7 @@ const Contactm = () => {
           href={emailLink}
           className="flex items-center justify-center w-9 h-9 rounded-full shadow-lg hover:scale-150 transform transition-transform duration-500"
         >
-          <img src="src/assets/gmaillogo.svg" alt="gmail" />
+          <img src="assets/gmaillogo.svg" alt="gmail" />
         </a>
       </div>
 

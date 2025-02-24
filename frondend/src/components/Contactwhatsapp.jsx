@@ -16,7 +16,7 @@ const Contactw = () => {
           rel="noopener noreferrer"
           className="flex items-center justify-center w-8 h-8 rounded-full shadow-3lg hover:scale-150 transform transition-transform duration-500"
         >
-    <img src="src/assets/whatsapp.svg" alt="whatsapp" />
+    <img src="assets/whatsapp.svg" alt="whatsapp" />
         </a>
       </div>
     // </div>

@@ -8,7 +8,7 @@ const Contactphone = () => {
           href="tel:+918344292756"
           className="flex items-center justify-center w-9 h-9 rounded-full shadow-lg "
         >
-          <img src="src/assets/phone.svg" alt="gmail" />
+          <img src="assets/phone.svg" alt="gmail" />
         </a>
     </div>
   )
