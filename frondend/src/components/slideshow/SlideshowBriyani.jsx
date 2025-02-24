@@ -1,10 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
 
 const images = [
- 'src/assets/briyani-2.png',
- 'src/assets/briyani-2.png',
- 'src/assets/briyani-2.png',
- 'src/assets/briyani-2.png'
+ 'assets/briyani-2.png',
+ 'assets/briyani-2.png',
+ 'assets/briyani-2.png',
+ 'assets/briyani-2.png'
 
 ];
 
